@@ -1,0 +1,12 @@
+#app.rb
+print "Hello world!"
+print "Hello world!"
+print "Hello world!"
+
+#this is the equivalent of calling
+#puts [1,2,3].inspect
+p [1,2,3]
+
+#this is the equivalent of calling
+#puts [{}].pretty_inspect
+pp [{ id: 1, hello: "World" }, { id: 2, hello: "Ruby" }, { id: 3, hello: "Moon" }, { id: 4, hello: "Learner" }]
